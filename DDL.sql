@@ -1,0 +1,9 @@
+CREATE TABLE mstbiodata (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    NIP VARCHAR(20) UNIQUE NOT NULL,
+    NamaLengkap VARCHAR(255) NOT NULL,
+    JenisKelamin VARCHAR(1) NOT NULL,
+    Alamat TEXT,
+    Password VARCHAR(255) NOT NULL,
+    NomorKtp VARCHAR(16) UNIQUE NOT NULL
+);
